@@ -4,6 +4,8 @@
 
 ### Deskripsi
 
+Program ini mengimplementasikan metode numerik 4th Order Runge-Kutta Method untuk menghitung model SIR Transmisi TB pada rentang waktu yang bersifat variabel. Metode tersebut, yang dijelaskan dalam buku Numerical Methods for Engineers oleh Chapra dan Canale, digunakan untuk mengaproksimasi model laju data secara persis.
+
 Program ditulis dalam bahasa pemrograman C, dan disimpan outputnya dalam sebuah file .csv, yang kemudian bisa dibuat grafik untuk menunjukkan laju semua persamaan modelnya.
 
 ### Cara Menjalankan
@@ -18,7 +20,15 @@ Program ditulis dalam bahasa pemrograman C, dan disimpan outputnya dalam sebuah 
    ./test_runge_kutta_4th
    ```
 4. Output: Program akan menyimpan output dalam file csv, yang menunjukkan nilai step, waktu t, nilai RK4 x(t), y(t), dan z(t), serta nilai estimasi error masing-masing ketiga kolom terakhir.
+   
 ### Struktur File
+
+- `test_runge_kutta_4th.c`: File c RK4
+- `test_runge_kutta_4th.exe`: Program RK4
+- `hasil_runge_kutta.csv`: Tempat output program RK4
+- `ProyekUAS_2306220412_Farhan.docx`: Laporan tertulis "Implementasi Runge-Kutta Method Dalam Program Untuk Simulasi Transmisi Tuberkulosis" dengan LATEX.
+- `ProyekUAS_2306220412_Farhan.pdf`: Salinan PDF laporan.
+- `README.md`: File dokumentasi ini.
 
 ### Contoh Output
 
